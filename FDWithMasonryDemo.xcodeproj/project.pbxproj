@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		65DD54621C64BB4800B16B76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD54611C64BB4800B16B76 /* main.m */; };
 		65DD54651C64BB4800B16B76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD54641C64BB4800B16B76 /* AppDelegate.m */; };
-		65DD54681C64BB4800B16B76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD54671C64BB4800B16B76 /* ViewController.m */; };
-		65DD546B1C64BB4800B16B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD54691C64BB4800B16B76 /* Main.storyboard */; };
 		65DD546D1C64BB4800B16B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DD546C1C64BB4800B16B76 /* Assets.xcassets */; };
-		65DD54701C64BB4800B16B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD546E1C64BB4800B16B76 /* LaunchScreen.storyboard */; };
+		65DD54781C64BBEF00B16B76 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 65DD54771C64BBEF00B16B76 /* data.json */; };
+		65DD547F1C64BC7100B16B76 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD547A1C64BC7100B16B76 /* FDFeedEntity.m */; };
+		65DD54801C64BC7100B16B76 /* FDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD547C1C64BC7100B16B76 /* FDFeedViewController.m */; };
+		65DD54811C64BC7100B16B76 /* FDFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD547E1C64BC7100B16B76 /* FDFeedCell.m */; };
+		F689F10CD22BF883A62C0FBE /* Pods_FDWithMasonryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383421A03301A10BA3CCE41 /* Pods_FDWithMasonryDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29B8528E096D9E4DBB0B185D /* Pods-FDWithMasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDWithMasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDWithMasonryDemo/Pods-FDWithMasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		65DD545D1C64BB4800B16B76 /* FDWithMasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDWithMasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD54611C64BB4800B16B76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65DD54631C64BB4800B16B76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65DD54641C64BB4800B16B76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65DD54661C64BB4800B16B76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65DD54671C64BB4800B16B76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65DD546A1C64BB4800B16B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65DD546C1C64BB4800B16B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65DD546F1C64BB4800B16B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DD54711C64BB4800B16B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD54771C64BBEF00B16B76 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		65DD54791C64BC7100B16B76 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
+		65DD547A1C64BC7100B16B76 /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedEntity.m; sourceTree = "<group>"; };
+		65DD547B1C64BC7100B16B76 /* FDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedViewController.h; sourceTree = "<group>"; };
+		65DD547C1C64BC7100B16B76 /* FDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedViewController.m; sourceTree = "<group>"; };
+		65DD547D1C64BC7100B16B76 /* FDFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedCell.h; sourceTree = "<group>"; };
+		65DD547E1C64BC7100B16B76 /* FDFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedCell.m; sourceTree = "<group>"; };
+		9B0331E5F7CACE628D7D947C /* Pods-FDWithMasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDWithMasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDWithMasonryDemo/Pods-FDWithMasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A383421A03301A10BA3CCE41 /* Pods_FDWithMasonryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDWithMasonryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F689F10CD22BF883A62C0FBE /* Pods_FDWithMasonryDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383F8B1C6E462D0D8FDA702B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A383421A03301A10BA3CCE41 /* Pods_FDWithMasonryDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56599F10F8401E7018779957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B0331E5F7CACE628D7D947C /* Pods-FDWithMasonryDemo.debug.xcconfig */,
+				29B8528E096D9E4DBB0B185D /* Pods-FDWithMasonryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65DD54541C64BB4800B16B76 = {
 			isa = PBXGroup;
 			children = (
 				65DD545F1C64BB4800B16B76 /* FDWithMasonryDemo */,
 				65DD545E1C64BB4800B16B76 /* Products */,
+				56599F10F8401E7018779957 /* Pods */,
+				383F8B1C6E462D0D8FDA702B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +88,14 @@
 			children = (
 				65DD54631C64BB4800B16B76 /* AppDelegate.h */,
 				65DD54641C64BB4800B16B76 /* AppDelegate.m */,
-				65DD54661C64BB4800B16B76 /* ViewController.h */,
-				65DD54671C64BB4800B16B76 /* ViewController.m */,
-				65DD54691C64BB4800B16B76 /* Main.storyboard */,
+				65DD54791C64BC7100B16B76 /* FDFeedEntity.h */,
+				65DD547A1C64BC7100B16B76 /* FDFeedEntity.m */,
+				65DD547B1C64BC7100B16B76 /* FDFeedViewController.h */,
+				65DD547C1C64BC7100B16B76 /* FDFeedViewController.m */,
+				65DD547D1C64BC7100B16B76 /* FDFeedCell.h */,
+				65DD547E1C64BC7100B16B76 /* FDFeedCell.m */,
+				65DD54771C64BBEF00B16B76 /* data.json */,
 				65DD546C1C64BB4800B16B76 /* Assets.xcassets */,
-				65DD546E1C64BB4800B16B76 /* LaunchScreen.storyboard */,
 				65DD54711C64BB4800B16B76 /* Info.plist */,
 				65DD54601C64BB4800B16B76 /* Supporting Files */,
 			);
@@ -86,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65DD54741C64BB4800B16B76 /* Build configuration list for PBXNativeTarget "FDWithMasonryDemo" */;
 			buildPhases = (
+				BCDC2714937AD1D58CABD4A3 /* Check Pods Manifest.lock */,
 				65DD54591C64BB4800B16B76 /* Sources */,
 				65DD545A1C64BB4800B16B76 /* Frameworks */,
 				65DD545B1C64BB4800B16B76 /* Resources */,
+				F43F7AB4C764EC16A11BD9D8 /* Embed Pods Frameworks */,
+				E224319ED146B74E3D9CFFC7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +170,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DD54701C64BB4800B16B76 /* LaunchScreen.storyboard in Resources */,
 				65DD546D1C64BB4800B16B76 /* Assets.xcassets in Resources */,
-				65DD546B1C64BB4800B16B76 /* Main.storyboard in Resources */,
+				65DD54781C64BBEF00B16B76 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCDC2714937AD1D58CABD4A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E224319ED146B74E3D9CFFC7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDWithMasonryDemo/Pods-FDWithMasonryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43F7AB4C764EC16A11BD9D8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDWithMasonryDemo/Pods-FDWithMasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65DD54591C64BB4800B16B76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DD54681C64BB4800B16B76 /* ViewController.m in Sources */,
+				65DD54801C64BC7100B16B76 /* FDFeedViewController.m in Sources */,
+				65DD547F1C64BC7100B16B76 /* FDFeedEntity.m in Sources */,
 				65DD54651C64BB4800B16B76 /* AppDelegate.m in Sources */,
 				65DD54621C64BB4800B16B76 /* main.m in Sources */,
+				65DD54811C64BC7100B16B76 /* FDFeedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		65DD54691C64BB4800B16B76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65DD546A1C64BB4800B16B76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65DD546E1C64BB4800B16B76 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65DD546F1C64BB4800B16B76 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65DD54721C64BB4800B16B76 /* Debug */ = {
@@ -261,9 +325,11 @@
 		};
 		65DD54751C64BB4800B16B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0331E5F7CACE628D7D947C /* Pods-FDWithMasonryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FDWithMasonryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Garry.FDWithMasonryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +338,11 @@
 		};
 		65DD54761C64BB4800B16B76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B8528E096D9E4DBB0B185D /* Pods-FDWithMasonryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FDWithMasonryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Garry.FDWithMasonryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +368,7 @@
 				65DD54761C64BB4800B16B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
